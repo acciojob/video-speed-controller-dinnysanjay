@@ -16,6 +16,12 @@
 
 <script  src="./script.js">
   //Your code goes here
+	const video = document.querySelector('video');
+const volumeInput = document.querySelector('.volume');
+
+volumeInput.addEventListener('change', function() {
+  video.volume = this.value;
+});
 </script>
 </body>
 </html>
